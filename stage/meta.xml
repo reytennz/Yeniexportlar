@@ -1,0 +1,8 @@
+<meta>
+    <info author="Reytennz" type="script" version="13.0" name="AscendX_Tuning" />
+    <script src="server.lua" type="server" />
+    <script src="client.lua" type="client" />
+    <file src="smoke.png" />
+    <file src="sounds/turbo.wav" />
+    <file src="sounds/pop.wav" />
+</meta>

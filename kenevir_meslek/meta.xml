@@ -1,0 +1,9 @@
+<meta>
+
+	<script src="sfile.lua" type="server"/>
+	<script src="cfile.lua" type="client" cache="false"/>
+	<script src="rectangle.lua" type="client" cache="false"/>
+
+	<file src="zemin.png" />
+	
+</meta>

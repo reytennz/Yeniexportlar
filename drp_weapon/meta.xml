@@ -1,0 +1,44 @@
+<meta>
+    <script src=".crown/bundle.lua" type="shared" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728" />
+    <oop>true</oop>
+
+    <script src="server/server.lua" type="server" />
+    <script src="client/client.lua" type="client" cache="false" />
+
+    <script src="client/ui.lua" type="client" cache="false" />
+
+    <script src="shared/models.lua" type="shared" cache="false" />
+    <script src="server/attach.lua" type="server" />
+    <script src="client/attach.lua" type="client" />
+
+    <script src="server/reload.lua" type="server" />
+    <script src="client/reload.lua" type="client" cache="false" />
+
+    <script src="client/sound.lua" type="client" />
+    <script src="server/stats.lua" type="server" />
+
+    <script src="server/functions.lua" type="server" />
+    <script src="client/functions.lua" type="client" cache="false" />
+    <script src="shared/functions.lua" type="shared" cache="false" />
+
+	<script src="shared/ammo.lua" type="shared" cache="false" />
+    <script src="server/ammo.lua" type="server" />
+
+    <script src="server/district.lua" type="server" />
+
+    <script src="server/order.lua" type="server" />
+
+    <file src="public/**/*.*" />
+	
+	<export function="updateLocalGuns" type="server" />
+    <export function="removeWeapon" type="client" />
+    <export function="canPlayerShoot" type="client" />
+	<export function="getAmmoPerClip" type="server" />
+    <export function="getAmmoForWeapon" type="shared" />
+    <export function="isWeaponAmmoless" type="shared" />
+    <export function="getAmmo" type="shared" />
+    <export function="formatWeaponNames" type="shared" />
+    <export function="givePlayerAmmo" type="server" />
+    <export function="modifyWeaponValue" type="shared" />
+</meta>

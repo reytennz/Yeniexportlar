@@ -1,0 +1,27 @@
+<meta>
+    
+    <oop>true</oop>
+    <script src="shared.lua" type="shared" cache="false" />
+    <script src="client.lua" type="client" cache="false" />
+    <script src="server.lua" type="server" />
+    <script src="commands.lua" type="server" />
+    <script src="func/shared.lua" type="shared" cache="false" />
+    <script src="func/server.lua" type="server" />
+    <script src="func/client.lua" type="client" cache="false" />
+    <file src="components/logo.png" />
+    
+    <export function="isPlayerInfaction" type="shared" />
+    <export function="getPlayerfactionRank" type="shared" />
+    <export function="isPlayerfactionLeader" type="shared" />
+    <export function="getTeamFromfactionID" type="server" />
+    <export function="getTeamFromfactionID" type="client" />
+    <export function="getfactionName" type="server" />
+    <export function="getfactionType" type="server" />
+    <export function="getfactionFromName" type="server" />
+    <export function="getfactionIDFromName" type="server" />
+    <export function="givePlayerFactionXP" type="server" />
+    <export function="giveFactionXP" type="server" />
+
+    
+    <min_mta_version client="1.5.8-9.20979"></min_mta_version>
+</meta>

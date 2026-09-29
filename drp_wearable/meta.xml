@@ -1,0 +1,20 @@
+<meta>
+    <script src=".crown/bundle.lua" type="shared" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728" />
+    <oop>true</oop>
+
+	<script src="shared/thread.lua" type="shared" cache="false" />
+	<script src="shared/load.lua" type="shared" cache="false" />
+	
+	<script src="client/move.lua" type="client" cache="false" />
+
+	<script src="server/shop.lua" type="server" />
+	<script src="client/shop.lua" type="client" cache="false" />
+
+	<script src="server/cache.lua" type="server" />
+	<script src="client/cache.lua" type="client" cache="false" />
+
+	<file src="public/**/*.*" />
+
+	<export function="loadWearables" type="server" />
+</meta>

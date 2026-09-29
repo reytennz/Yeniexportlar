@@ -1,0 +1,276 @@
+﻿addEvent("setElementAlpha",true)
+addEventHandler("setElementAlpha", root, function(alpha)
+	local alpha = alpha or 255
+	setElementAlpha(client,alpha)
+end)
+
+addEvent("LastikMesaj",true)
+addEventHandler("LastikMesaj", getRootElement(), function(durum)
+if durum == 1 then
+showInfobox(source, "success", "Araç RGB Lastik İzi ayarı başarılı bir şekilde açıldı")
+elseif durum == 0 then
+showInfobox(source, "error", "Araç RGB Lastik İzi ayarı bir şekilde kapatıldı")
+end
+end)
+
+addEvent("TeleportMesaj",true)
+addEventHandler("TeleportMesaj", getRootElement(), function(alpha)
+showInfobox(source, "success", "Işınlanma ayarları başarılı bir şekilde değiştirildi")
+end)
+
+addEvent("BicakMesaj",true)
+addEventHandler("BicakMesaj", getRootElement(), function(alpha)
+showInfobox(source, "success", "Bıçaklanmama ayarları başarılı bir şekilde değiştirildi")
+end)
+
+addEvent("HayaletMesaj",true)
+addEventHandler("HayaletMesaj", getRootElement(), function()
+showInfobox(source, "success", "Araç Hayalet ayarları başarılı bir şekilde değiştirildi")
+end)
+
+addEvent("RainbowMesaj",true)
+addEventHandler("RainbowMesaj", getRootElement(), function(durum)
+if durum == 1 then
+showInfobox(source, "success", "Araç Rainbow ayarları başarılı bir şekilde açıldı")
+elseif durum == 0 then
+showInfobox(source, "error", "Araç Rainbow ayarları başarılı bir şekilde kapatıldı")
+end
+end)
+
+addEvent("OldurmeMesaj",true)
+addEventHandler("OldurmeMesaj", getRootElement(), function(durum)
+if durum == 1 then
+showInfobox(source, "success", "Öldürme mesajları başarıyla açıldı")
+elseif durum == 0 then
+showInfobox(source, "error", "Öldürme mesajları başarıyla kapatıldı")
+end
+end)
+
+addEvent("HaritaMesaj",true)
+addEventHandler("HaritaMesaj", getRootElement(), function(durum)
+if durum == 1 then
+showInfobox(source, "success", "Radar harita göstergesi başarıyla açıldı")
+elseif durum == 0 then
+showInfobox(source, "error", "Radar harita göstergesi başarıyla kapatıldı")
+end
+end)
+
+addEvent("YollarMesaj",true)
+addEventHandler("YollarMesaj", getRootElement(), function(durum)
+if durum == 1 then
+showInfobox(source, "error", "Yol scripti başarılı bir şekilde kapatıldı")
+elseif durum == 0 then
+showInfobox(source, "success", "Yol scripti başarılı bir şekilde açıldı")
+end
+end)
+
+addEvent("GirisMesaj",true)
+addEventHandler("GirisMesaj", getRootElement(), function(durum)
+if durum == 1 then
+showInfobox(source, "success", "Giriş Çıkış mesajları başarılı bir şekilde açıldı")
+elseif durum == 0 then
+showInfobox(source, "error", "Giriş Çıkış mesajları başarılı bir şekilde kapatıldı")
+end
+end)
+
+addEvent("HDkarMesaj",true)
+addEventHandler("HDkarMesaj", getRootElement(), function(durum)
+if durum == 1 then
+showInfobox(source, "success", "Sunucu Kar (Snowyroad) Modu başarıyla açıldı")
+elseif durum == 0 then
+showInfobox(source, "error", "Sunucu Kar (Snowyroad) Modu başarıyla kapatıldı")
+end
+end)
+
+addEvent("HDdetaylar",true)
+addEventHandler("HDdetaylar", getRootElement(), function(durum)
+if durum == 1 then
+showInfobox(source, "success", "Server Grafik detayları başarıyla açıldı")
+elseif durum == 0 then
+showInfobox(source, "error", "Server Grafik detayları başarıyla kapatıldı")
+end
+end)
+
+addEvent("SESarabaMesaj",true)
+addEventHandler("SESarabaMesaj", getRootElement(), function(durum)
+if durum == 1 then
+showInfobox(source, "success", "Sunucu araç sesleri Modu başarıyla açıldı")
+elseif durum == 0 then
+showInfobox(source, "error", "Sunucu araç sesleri Modu başarıyla kapatıldı")
+end
+end)
+
+function oyuncu_olurse ()
+if ( getElementData(source,"skin:kaydet") == true ) then
+local oyuncuskin = getPlayerSkin(source)
+setTimer (setPlayerSkin, 4000, 1, source, oyuncuskin)
+end
+end
+addEventHandler("onPlayerWasted", getRootElement(), oyuncu_olurse)
+
+addEvent("SkinMesaj",true)
+addEventHandler("SkinMesaj", getRootElement(), function(durum)
+if durum == 1 then
+showInfobox(source, "success", "Skin kaydet başarıyla açıldı öldüğünüz zaman skininiz gitmeyecek.")
+elseif durum == 0 then
+showInfobox(source, "error", "Skin kaydet başarıyla kapatıldı")
+end
+end)
+
+addEvent("ParlaklikMesaj",true)
+addEventHandler("ParlaklikMesaj", getRootElement(), function(durum)
+if durum == 1 then
+showInfobox(source, "success", "Oyun parlaklığı HD mode olarak ayarlandı")
+elseif durum == 0 then
+showInfobox(source, "error", "Oyun parlaklığı HD mode kapatıldı")
+end
+end)
+
+addEvent("UzaklikMesaj",true)
+addEventHandler("UzaklikMesaj", getRootElement(), function(durum)
+if durum == 1 then
+showInfobox(source, "success", "Görüş Uzaklığı başarıyla aktif edildi")
+elseif durum == 0 then
+showInfobox(source, "error", "Görüş Uzaklığı başarıyla kapatıldı")
+end
+end)
+
+addEvent("GodmodeMesaj",true)
+addEventHandler("GodmodeMesaj", getRootElement(), function(durum)
+if durum == 1 then
+showInfobox(source, "success", "Araç Godmode ayarları başarılı bir şekilde açıldı")
+elseif durum == 0 then
+showInfobox(source, "error", "Araç Godmode ayarları başarılı bir şekilde kapatıldı")
+end
+end)
+
+addEvent("DumanMesaj",true)
+addEventHandler("DumanMesaj", getRootElement(), function(durum)
+if durum == 1 then
+showInfobox(source, "success", "Duman efektleri başarıyla açıldı !")
+elseif durum == 0 then
+showInfobox(source, "error", "Duman Efektleri başarıyla kapatıldı !")
+end
+end)
+
+addEvent("GodMesaj",true)
+addEventHandler("GodMesaj", getRootElement(), function(durum)
+if durum == 1 then
+showInfobox(source, "success", "Ölümsüzlük Modu ayarları başarılı bir şekilde açıldı")
+elseif durum == 0 then
+showInfobox(source, "error", "Ölümsüzlük Modu ayarları başarılı bir şekilde kapatıldı")
+end
+end)
+
+addEvent("HDaracMesaj",true)
+addEventHandler("HDaracMesaj", getRootElement(), function(durum)
+if durum == 1 then
+showInfobox(source, "success", "HD Araç Shader ayarları başarılı bir şekilde açıldı")
+elseif durum == 0 then
+showInfobox(source, "error", "HD Araç Shader ayarları başarılı bir şekilde kapatıldı")
+end
+end)
+
+addEvent("HDairMesaj",true)
+addEventHandler("HDairMesaj", getRootElement(), function(durum)
+if durum == 1 then
+showInfobox(source, "success", "HD Gökyüzü Shader ayarları başarılı bir şekilde açıldı")
+elseif durum == 0 then
+showInfobox(source, "error", "HD Gökyüzü Shader ayarları başarılı bir şekilde kapatıldı")
+end
+end)
+
+
+addEvent("HDwaterMesaj",true)
+addEventHandler("HDwaterMesaj", getRootElement(), function(durum)
+if durum == 1 then
+showInfobox(source, "success", "HD Deniz Shader ayarları başarılı bir şekilde açıldı")
+elseif durum == 0 then
+showInfobox(source, "error", "HD Deniz Shader ayarları başarılı bir şekilde kapatıldı")
+end
+end)
+
+function showInfobox(element, type, msg, msg2, imgPath, color)
+	if isElement(element) then
+		triggerClientEvent(element, "showInfobox", element, type, msg, msg2, imgPath, color)
+	end
+end
+
+----------------------------
+-----Arac Dokunulmazlık-----
+----------------------------
+function AracDokunulmazlik_Modu(source)
+if (isPedInVehicle(source ))then
+if (isVehicleDamageProof(getPedOccupiedVehicle(source)) == false) then
+setVehicleDamageProof(getPedOccupiedVehicle(source), true )
+end
+end
+end
+addEvent("AracDokunulmazlik_Event", true )
+addEventHandler("AracDokunulmazlik_Event", resourceRoot, AracDokunulmazlik_Modu)
+
+function AracDokunulmazlikKapat_Modu(source)
+if (isPedInVehicle (source)) then
+setVehicleDamageProof(getPedOccupiedVehicle(source), false )
+end
+end
+addEvent("AracDokunulmazlikKapat_Event", true)
+addEventHandler("AracDokunulmazlikKapat_Event", resourceRoot, AracDokunulmazlikKapat_Modu)
+
+--Rainbow
+local strbTimer2 = {}
+local strbState2 = {}
+
+addEvent("onColor", true)
+addEventHandler("onColor", root,
+function (sec,fls)
+	local vehicle = getPedOccupiedVehicle(source)
+	    if isElement(vehicle) then
+		    if not(getVehicleOccupant (vehicle, 0 ) == source) then return end
+			    if strbState2[vehicle] == true  then
+			        if isTimer(strbTimer2[vehicle]) then
+                    killTimer(strbTimer2[vehicle])
+	                strbTimer2[vehicle] = nil
+					strbState2[vehicle] = false
+					end
+				end					
+				strbTimer2[vehicle] = setTimer( 
+			function ( vehicle )
+				strVariantc ( vehicle,fls )
+			end, sec, 0, vehicle )
+		strbState2[vehicle] = true
+	end	
+end)
+
+addEvent("onColorStop", true)
+addEventHandler("onColorStop", root,
+ function ()	
+    local vehicle = getPedOccupiedVehicle(source)
+	    if isElement(vehicle) then
+            if not(getVehicleOccupant (vehicle, 0 ) == source) then return end
+                if strbState2[vehicle] == true then
+	                if isTimer(strbTimer2[vehicle]) then
+                      killTimer(strbTimer2[vehicle])
+	                  strbTimer2[vehicle] = nil
+                      strbState2[vehicle] = false
+				      setVehicleColor( vehicle, 255, 255, 255 )  
+				    end
+                 end
+		end    		  
+end)
+
+function strVariantc ( car,fls)
+    if fls == false then 
+        if ( getVehicleOverrideLights ( car ) ~= 1 ) then
+		  setVehicleColor( car, math.random(0,255), math.random(0,255), math.random(0,255) )
+        else	
+		  setVehicleColor( car, math.random(0,255), math.random(0,255), math.random(0,255) )	
+        end
+	elseif fls == true then	
+	    if ( getVehicleOverrideLights ( car ) ~= 1 ) then
+		  setVehicleColor( car, math.random(0,255), math.random(0,255), math.random(0,255) )
+        else	
+		  setVehicleColor( car, math.random(0,255), math.random(0,255), math.random(0,255) )	
+        end
+	end	
+end

@@ -1,0 +1,24 @@
+<meta>
+    <script src=".crown/bundle.lua" type="shared" cache="false" />
+    <min_mta_version server="1.6.0-9.21765" client="1.5.6-9.18728" />
+    <oop>true</oop>
+    
+    <script src="shared.lua" type="shared" cache="false" />
+    
+    <script src="server/factory.lua" type="server" />
+    <script src="server/events.lua" type="server" />
+    <script src="server/admin.lua" type="server" />
+    
+    <script src="client/main.lua" type="client" cache="false" />
+    <script src="client/renderer.lua" type="client" cache="false" />
+    
+    <script src="client/atm/factory.lua" type="client" cache="false" />
+    <script src="client/atm/events.lua" type="client" cache="false" />
+    <script src="client/atm/page.lua" type="client" cache="false" />
+    
+    <script src="client/faction/events.lua" type="client" cache="false" />
+    <script src="client/faction/page.lua" type="client" cache="false" />
+    
+    <export function="addBankHistory" type="server" />
+    <export function="addBankHistoryByID" type="server" />
+</meta>

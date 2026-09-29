@@ -1,0 +1,37 @@
+<meta>
+    <script src=".crown/bundle.lua" type="shared" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728" />
+    <oop>true</oop>
+
+    <script src="server/usernames.lua" type="server" />
+    <script src="client/usernames.lua" type="client" cache="false" />
+    
+    <script src="server/character_names.lua" type="server" />
+    <script src="client/character_names.lua" type="client" cache="false" />
+    
+    <script src="server/factions.lua" type="server" />
+    <script src="client/factions.lua" type="client" cache="false" />
+    
+    <script src="server/player_names.lua" type="server" />
+	
+	<export function="getUsername" type="server" />
+    <export function="getUsername" type="client" />
+    
+	<export function="getUsernameFromID" type="server" />
+	<export function="getUsernameFromID" type="client" />
+    
+    <export function="getCharacterNameFromID" type="server" />
+    <export function="getCharacterNameFromID" type="client" />
+
+    <export function="getCharacterIDFromName" type="server" />
+    
+    <export function="getFactionNameFromID" type="server" />
+    <export function="getFactionNameFromID" type="client" />
+    
+    <export function="clearCharacterCache" type="server" />
+    <export function="clearCharacterName" type="server" />
+    <export function="getCharacterName" type="server" />
+    <export function="stats" type="server" />
+    
+    <export function="getAccountFromCharacterID" type="server" />
+</meta>

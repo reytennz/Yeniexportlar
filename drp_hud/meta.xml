@@ -1,0 +1,46 @@
+<meta>
+    <script src=".crown/bundle.lua" type="shared" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728" />
+    <oop>true</oop>
+	
+	<script src="server/server.lua" type="server" />
+	<script src="server/admins.lua" type="server" />
+    <script src="server/stats.lua" type="server" />
+
+    <script src="client/main.lua" type="client" cache="false" />
+
+    <script src="client/utils/helpers.lua" type="client" cache="false" />
+
+    <script src="client/core/componentWrapper.lua" type="client" cache="false" />
+    <script src="client/core/render.lua" type="client" cache="false" />
+
+    <script src="client/core/editor/events.lua" type="client" cache="false" />
+    <script src="client/core/editor/render.lua" type="client" cache="false" />
+
+    <script src="client/components/carhud/__circular.lua" type="client" cache="false" />
+    <script src="client/components/carhud/__native.lua" type="client" cache="false" />
+    <script src="client/components/carhud/__trilogy.lua" type="client" cache="false" />
+
+    <script src="client/components/hud/helperFunctions.lua" type="client" cache="false" />
+    <script src="client/components/hud/store.lua" type="client" cache="false" />
+    <script src="client/components/hud/skull.lua" type="client" cache="false" />
+    <script src="client/components/hud/__circular.lua" type="client" cache="false" />
+    <script src="client/components/hud/__native.lua" type="client" cache="false" />
+    <script src="client/components/hud/__modern.lua" type="client" cache="false" />
+    <script src="client/components/hud/__trilogy.lua" type="client" cache="false" />
+    <script src="client/components/hud/__utopia.lua" type="client" cache="false" />
+
+    <script src="client/components/minimap/__modern.lua" type="client" cache="false" />
+    <script src="client/components/minimap/__native.lua" type="client" cache="false" />
+	
+	<script src="client/core/views/clear_screen.lua" type="client" cache="false" />
+    <script src="client/core/views/finance_update.lua" type="client" cache="false" />
+    <script src="client/core/views/overlay.lua" type="client" cache="false" />
+    <script src="client/core/views/stat.lua" type="client" cache="false" />
+    <script src="client/core/views/role_screenshot.lua" type="client" cache="false" />
+
+	<export function="getCurrentRenderingHud" type="client" />
+	<export function="isNativeRadarVisible" type="client" />
+
+	<file src="public/**/*.*" />
+</meta>

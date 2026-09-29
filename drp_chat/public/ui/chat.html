@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Deha Roleplay</title>
+        <link rel="stylesheet" href="http://mta/local/public/ui/styles.css">
+    </head>
+    <body>
+        <div class="chat hidden">
+            <div class="chat__messages">
+                <div class="chat__messages-container"></div>
+            </div>
+
+            <div class="chat__input-block hidden">
+                <input class="input_counter" disabled maxlength="3" size="3" value="0/200" id="counter">
+                <div class="autocomplete">
+                    <input id="commands" maxlength="200" type="text" class="chat__input" spellcheck="false" onkeyup="textCounter(this,'counter',200);" onkeydown="textCounter(this,'counter',200);" id="message">
+                    <span class="chat__input-label"></span></input>
+                </div>
+            </div>
+        </div>
+
+        <script src="http://mta/local/public/ui/scripts.js"></script>
+    </body>
+</html>

@@ -1,0 +1,390 @@
+﻿<meta>
+	<info author="otuz bir" version='1.5.0' name='	porno
+ Gaming Freeroam' type="script"/>
+
+	<script src = "client.lua" type = "client" cache="false"/>
+	<script src = "settings.lua" type = "client" cache="false"/>
+	<script src = "panel.lua" type = "client" cache="false"/>
+	<script src = "server.lua" type = "server" cache="false"/>
+
+	<export function="getMods" type="client" />
+	<export function="sistem5ackapat" type="client"/>
+
+
+------------------------------------------------ [ KİLİTLİ ARABA MODLARI ] ------------------------------------------------   
+
+   <file src = "kilitli/400.txdzimenorsiker" download = "false" model = "400" isim="[ ESCALADE ] Cadillac" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/400.dffzimenorsiker" download = "false" model = "400" isim="[ ESCALADE ] Cadillac" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/401.txdzimenorsiker" download = "false" model = "401" isim="[ HYUNDAI ]  H 100" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/401.dffzimenorsiker" download = "false" model = "401" isim="[ HYUNDAI ]  H 100" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+
+   <file src = "kilitli/404.txdzimenorsiker" download = "false" model = "404" isim="[BMW ] E" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/404.dffzimenorsiker" download = "false" model = "404" isim="[BMW ] E" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/405.txdzimenorsiker" download = "false" model = "405" isim="[ HONDA ]  S2000 Üstü Açık" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/405.dffzimenorsiker" download = "false" model = "405" isim="[ HONDA ]  S2000 Üstü Açık" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/410.txdzimenorsiker" download = "false" model = "410" isim="[ MERCEDES ]  GT" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/410.dffzimenorsiker" download = "false" model = "410" isim="[ MERCEDES ]  GT" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/411.txdzimenorsiker" download = "false" model = "411" isim="[ HONDA ] Civic Vtec 1" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/411.dffzimenorsiker" download = "false" model = "411" isim="[ HONDA ] Civic Vtec 1" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/412.txdzimenorsiker" download = "false" model = "412" isim="[ NİSSAN ] Skyline R33" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/412.dffzimenorsiker" download = "false" model = "412" isim="[ NİSSAN ] Skyline R33" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/415.txdzimenorsiker" download = "false" model = "415" isim="[ TOFAS ]  Dogan" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/415.dffzimenorsiker" download = "false" model = "415" isim="[ TOFAS ]  Dogan" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+
+   <file src = "kilitli/418.txdzimenorsiker" download = "false" model = "418" isim="[ TOYOTA ] Mark 2" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/418.dffzimenorsiker" download = "false" model = "418" isim="[ TOYOTA ] Mark 2" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/419.txdzimenorsiker" download = "false" model = "419" isim="[ VOLKSWAGEN ]  Golf" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/419.dffzimenorsiker" download = "false" model = "419" isim="[ VOLKSWAGEN ]  Golf" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+
+   <file src = "kilitli/422.txdzimenorsiker" download = "false" model = "422" isim="[ NİSSAN ] Skyline R34" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/422.dffzimenorsiker" download = "false" model = "422" isim="[ NİSSAN ] Skyline R34" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/426.txdzimenorsiker" download = "false" model = "426" isim="[ HONDA ]  S2000" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/426.dffzimenorsiker" download = "false" model = "426" isim="[ HONDA ]  S2000" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/429.txdzimenorsiker" download = "false" model = "429" isim="[ PORSCHE ] 911 GT" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/429.dffzimenorsiker" download = "false" model = "429" isim="[ PORSCHE ] 911 GT" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/431.txdzimenorsiker" download = "false" model = "431" isim="[ OTOBUS ] Kamil Koç" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/431.dffzimenorsiker" download = "false" model = "431" isim="[ OTOBUS ] Kamil Koç" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+
+   <file src = "kilitli/436.txdzimenorsiker" download = "false" model = "436" isim="[ VOLKSWAGEN ]  Passat" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/436.dffzimenorsiker" download = "false" model = "436" isim="[ VOLKSWAGEN ]  Passat" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/438.txdzimenorsiker" download = "false" model = "438" isim="[ TOFAS ]  Tempra" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/438.dffzimenorsiker" download = "false" model = "438" isim="[ TOFAS ]  Tempra" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/439.txdzimenorsiker" download = "false" model = "439" isim="[ NİSSAN ] Qashqai" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/439.dffzimenorsiker" download = "false" model = "439" isim="[ NİSSAN ] Qashqai" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/445.txdzimenorsiker" download = "false" model = "445" isim="[ MAZDA ]  Speed 3" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/445.dffzimenorsiker" download = "false" model = "445" isim="[ MAZDA ]  Speed 3" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+
+   <file src = "kilitli/457.txdzimenorsiker" download = "false" model = "457" isim="[ RENAULT ] Twizy" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/457.dffzimenorsiker" download = "false" model = "457" isim="[ RENAULT ] Twizy" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+
+   <file src = "kilitli/461.txdzimenorsiker" download = "false" model = "461" isim="[ APRİLLA ] RSV4" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/461.dffzimenorsiker" download = "false" model = "461" isim="[ APRİLLA ] RSV4" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/466.txdzimenorsiker" download = "false" model = "466" isim="[ AUDI ]  A4" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/466.dffzimenorsiker" download = "false" model = "466" isim="[ AUDI ]  A4" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+
+   <file src = "kilitli/470.txdzimenorsiker" download = "false" model = "470" isim="[ FORD ]  F15" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/470.dffzimenorsiker" download = "false" model = "470" isim="[ FORD ]  F15" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+
+   <file src = "kilitli/471.txdzimenorsiker" download = "false" model = "471" isim="[ ATV ] Army" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/471.dffzimenorsiker" download = "false" model = "471" isim="[ ATV ] Army" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+	  <file src = "kilitli/474.txdzimenorsiker" download = "false" model = "474" isim="[ MERCEDES ]  Actros" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/474.dffzimenorsiker" download = "false" model = "474" isim="[ MERCEDES ]  Actros" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+	   <file src = "kilitli/475.txdzimenorsiker" download = "false" model = "475" isim="[ TOYOTA ]  Supra" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/475.dffzimenorsiker" download = "false" model = "475" isim="[ TOYOTA ]  Supra" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+
+   <file src = "kilitli/477.txdzimenorsiker" download = "false" model = "477" isim=" [ BMW ] M3" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/477.dffzimenorsiker" download = "false" model = "477" isim=" [ BMW ] M3" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/479.txdzimenorsiker" download = "false" model = "479" isim="[ MERCEDES ] Cls63" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/479.dffzimenorsiker" download = "false" model = "479" isim="[ MERCEDES ] Cls63" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+
+   <file src = "kilitli/487.txdzimenorsiker" download = "false" model = "487" isim="[ SADLER ] Helikopter" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/487.dffzimenorsiker" download = "false" model = "487" isim="[ SADLER ] Helikopter" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+	   <file src = "kilitli/491.txdzimenorsiker" download = "false" model = "491" isim="[ TOFAS ]  Doğan SLX" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/491.dffzimenorsiker" download = "false" model = "491" isim="[ TOFAS ]  Doğan SLX" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/492.txdzimenorsiker" download = "false" model = "492" isim="[ MITSUBISHI ]  EVO 9" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/492.dffzimenorsiker" download = "false" model = "492" isim="[ MITSUBISHI ]  EVO 9" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+	   <file src = "kilitli/494.txdzimenorsiker" download = "false" model = "494" isim="[ DODGE ] Charger 1970" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/494.dffzimenorsiker" download = "false" model = "494" isim="[ DODGE ] Charger 1970" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/496.txdzimenorsiker" download = "false" model = "496" isim="[ SKODA ]  Super B" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/496.dffzimenorsiker" download = "false" model = "496" isim="[ SKODA ]  Super B" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/500.txdzimenorsiker" download = "false" model = "500" isim="[ NİSSAN ] Skyline GT-R35" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/500.dffzimenorsiker" download = "false" model = "500" isim="[ NİSSAN ] Skyline GT-R35" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/502.txdzimenorsiker" download = "false" model = "502" isim="[ DODGE ] Demon" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/502.dffzimenorsiker" download = "false" model = "502" isim="[ DODGE ] Demon" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/503.txdzimenorsiker" download = "false" model = "503" isim="[ FORD ] Mustang GT" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/503.dffzimenorsiker" download = "false" model = "503" isim="[ FORD ] Mustang GT" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/505.txdzimenorsiker" download = "false" model = "505" isim="[ RANGE ]  Rover" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/505.dffzimenorsiker" download = "false" model = "505" isim="[ RANGE ]  Rover" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/507.txdzimenorsiker" download = "false" model = "507" isim="[ FIAT ]  Doblo" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/507.dffzimenorsiker" download = "false" model = "507" isim="[ FIAT ]  Doblo" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+	  <file src = "kilitli/509.txdzimenorsiker" download = "false" model = "509" isim="[ BİSİKLET ] Basık Çocuk" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/509.dffzimenorsiker" download = "false" model = "509" isim="[ BİSİKLET ] Basık Çocuk" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+
+   <file src = "kilitli/517.txdzimenorsiker" download = "false" model = "517" isim="[ NISSAN ]   Polis" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/517.dffzimenorsiker" download = "false" model = "517" isim="[ NISSAN ]   Polis" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/518.txdzimenorsiker" download = "false" model = "518" isim="[ MCLAREN ] P1 Sport Pack" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/518.dffzimenorsiker" download = "false" model = "518" isim="[ MCLAREN ] P1 Sport Pack" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/519.txdzimenorsiker" download = "false" model = "519" isim="[ UÇAK ]  Solo Türk" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/519.dffzimenorsiker" download = "false" model = "519" isim="[ UÇAK ]  Solo Türk" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>	
+
+<file src = "kilitli/521.txdzimenorsiker" download = "false" model = "521" isim="[ KAWASAKİ ] Ninja H2R" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/521.dffzimenorsiker" download = "false" model = "521" isim="[ KAWASAKİ ] Ninja H2R" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+
+
+   <file src = "kilitli/529.txdzimenorsiker" download = "false" model = "529" isim="[ FORD ] Focus Sedan" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/529.dffzimenorsiker" download = "false" model = "529" isim="[ FORD ] Focus Sedan" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>	
+
+	   <file src = "kilitli/533.txdzimenorsiker" download = "false" model = "533" isim="[ MERCEDES ]  S600 Maybach" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/533.dffzimenorsiker" download = "false" model = "533" isim="[ MERCEDES ]  S600 Maybach" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+<file src = "kilitli/534.txdzimenorsiker" download = "false" model = "534" isim="[ ALFA ROMEO ] Giulia" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/534.dffzimenorsiker" download = "false" model = "534" isim="[ ALFA ROMEO ] Giulia" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+<file src = "kilitli/535.txdzimenorsiker" download = "false" model = "535" isim="[ FİAT ] Ducato" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/535.dffzimenorsiker" download = "false" model = "535" isim="[ FİAT ] Ducato" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	
+
+   <file src = "kilitli/536.txdzimenorsiker" download = "false" model = "536" isim="[ DACIA ]   Polis" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/536.dffzimenorsiker" download = "false" model = "536" isim="[ DACIA ]   Polis" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+
+   <file src = "kilitli/541.txdzimenorsiker" download = "false" model = "541" isim="[ BMW ]  M5 F10" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/541.dffzimenorsiker" download = "false" model = "541" isim="[ BMW ]  M5 F10" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>	
+
+
+<file src = "kilitli/543.txdzimenorsiker" download = "false" model = "543" isim="[ HONDA ] Civic HB" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/543.dffzimenorsiker" download = "false" model = "543" isim="[ HONDA ] Civic HB" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+<file src = "kilitli/545.txdzimenorsiker" download = "false" model = "545" isim="[ MERCEDES ]  Sprinter" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/545.dffzimenorsiker" download = "false" model = "545" isim="[ MERCEDES ]  Sprinter" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	
+
+   <file src = "kilitli/549.txdzimenorsiker" download = "false" model = "549" isim="[ BMW ]  Cabrio" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/549.dffzimenorsiker" download = "false" model = "549" isim="[ BMW ]  Cabrio" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/550.txdzimenorsiker" download = "false" model = "550" isim="[ RENAULT ]  Toros" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/550.dffzimenorsiker" download = "false" model = "550" isim="[ RENAULT ]  Toros" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>	
+
+	   <file src = "kilitli/551.txdzimenorsiker" download = "false" model = "551" isim="[ TOFAS ]  Brazzers" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/551.dffzimenorsiker" download = "false" model = "551" isim="[ TOFAS ]  Brazzers" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+
+<file src = "kilitli/555.txdzimenorsiker" download = "false" model = "555" isim="[ NİSSAN ] Sılvıa S14" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/555.dffzimenorsiker" download = "false" model = "555" isim="[ NİSSAN ] Sılvıa S14" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	
+
+   <file src = "kilitli/558.txdzimenorsiker" download = "false" model = "558" isim="[ MAZDA ]  RX 7" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/558.dffzimenorsiker" download = "false" model = "558" isim="[ MAZDA ]  RX 7" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/559.txdzimenorsiker" download = "false" model = "559" isim="Renault Clio" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/559.dffzimenorsiker" download = "false" model = "559" isim="Renault Clio" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/560.txdzimenorsiker" download = "false" model = "560" isim="[ FORD ]  Courier" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/560.dffzimenorsiker" download = "false" model = "560" isim="[ FORD ]  Courier" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>	
+
+	   <file src = "kilitli/561.txdzimenorsiker" download = "false" model = "561" isim="[ HONDA ]  Civic Typer" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/561.dffzimenorsiker" download = "false" model = "561" isim="[ HONDA ]  Civic Typer" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+<file src = "kilitli/562.txdzimenorsiker" download = "false" model = "562" isim="[ NISSAN ] 350Z" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/562.dffzimenorsiker" download = "false" model = "562" isim="[ NISSAN ] 350Z" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+<file src = "kilitli/565.txdzimenorsiker" download = "false" model = "565" isim="[ BMW ]  M3 v2" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/565.dffzimenorsiker" download = "false" model = "565" isim="[ BMW ]  M3 v2" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	
+
+   <file src = "kilitli/566.txdzimenorsiker" download = "false" model = "566" isim="[ RENAULT ]  Megane 2" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/566.dffzimenorsiker" download = "false" model = "566" isim="[ RENAULT ]  Megane 2" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/567.txdzimenorsiker" download = "false" model = "567" isim="[ AUDI ]  R8" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/567.dffzimenorsiker" download = "false" model = "567" isim="[ AUDI ]  R8" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/575.txdzimenorsiker" download = "false" model = "575" isim="[ BMW ]  E30 [YENI]" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/575.dffzimenorsiker" download = "false" model = "575" isim="[ BMW ]  E30 [YENI]" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>	
+
+	   <file src = "kilitli/576.txdzimenorsiker" download = "false" model = "576" isim="Range Rover" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/576.dffzimenorsiker" download = "false" model = "576" isim="Range Rover" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+<file src = "kilitli/579.txdzimenorsiker" download = "false" model = "579" isim="[ MERCEDES ]  G63" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/579.dffzimenorsiker" download = "false" model = "579" isim="[ MERCEDES ]  G63" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+<file src = "kilitli/580.txdzimenorsiker" download = "false" model = "580" isim="[ LAMBORGHINI ]  Huracan" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/580.dffzimenorsiker" download = "false" model = "580" isim="[ LAMBORGHINI ]  Huracan" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	
+
+   <file src = "kilitli/581.txdzimenorsiker" download = "false" model = "581" isim="[ KÜBA ]   Motor" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/581.dffzimenorsiker" download = "false" model = "581" isim="[ KÜBA ]   Motor" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/582.txdzimenorsiker" download = "false" model = "582" isim="[ TOFAS ]  İzmir İşi" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/582.dffzimenorsiker" download = "false" model = "582" isim="[ TOFAS ]  İzmir İşi" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/585.txdzimenorsiker" download = "false" model = "585" isim="[ FORD ]  Transit" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/585.dffzimenorsiker" download = "false" model = "585" isim="[ FORD ]  Transit" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>	
+
+<file src = "kilitli/589.txdzimenorsiker" download = "false" model = "589" isim="[ NİSSAN ] 240 SX" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/589.dffzimenorsiker" download = "false" model = "589" isim="[ NİSSAN ] 240 SX" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+<file src = "kilitli/596.txdzimenorsiker" download = "false" model = "596" isim="[ TOFAS ]  Kartal SLX" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/596.dffzimenorsiker" download = "false" model = "596" isim="[ TOFAS ]  Kartal SLX" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	
+
+   <file src = "kilitli/600.txdzimenorsiker" download = "false" model = "600" isim="[ MERCEDES ]  E 500" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/600.dffzimenorsiker" download = "false" model = "600" isim="[ MERCEDES ]  E 500" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/602.txdzimenorsiker" download = "false" model = "602" isim="[ VOLKSWAGEN ]  Scirocco" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/602.dffzimenorsiker" download = "false" model = "602" isim="[ VOLKSWAGEN ]  Scirocco" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+
+   <file src = "kilitli/603.txdzimenorsiker" download = "false" model = "603" isim="[ FIAT ]  Albea [YENI]" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/603.dffzimenorsiker" download = "false" model = "603" isim="[ FIAT ]  Albea [YENI]" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>	
+
+
+<file src = "kilitli/605.txdzimenorsiker" download = "false" model = "605" isim="[ PEUGEOT ]  106" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/605.dffzimenorsiker" download = "false" model = "605" isim="[ PEUGEOT ]  106" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	
+<file src = "kilitli/546.txdzimenorsiker" download = "false" model = "546" isim="[ BMW ]  M4" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/546.dffzimenorsiker" download = "false" model = "546" isim="[ BMW ]  M4" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	
+<file src = "kilitli/587.txdzimenorsiker" download = "false" model = "587" isim="[ MAZDA ]  Rx 8" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/587.dffzimenorsiker" download = "false" model = "587" isim="[ MAZDA ]  Rx 8" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	
+<file src = "kilitli/402.txdzimenorsiker" download = "false" model = "402" isim="[ FERRARİ ]  458 İtaly" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/402.dffzimenorsiker" download = "false" model = "402" isim="[ FERRARİ ]  458 İtaly" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	
+<file src = "kilitli/413.txdzimenorsiker" download = "false" model = "413" isim="[ FIAT ]  Fiorino" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/413.dffzimenorsiker" download = "false" model = "413" isim="[ FIAT ]  Fiorino" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	
+<file src = "kilitli/421.txdzimenorsiker" download = "false" model = "421" isim="[ HYUNDAİ ]  Accent" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/421.dffzimenorsiker" download = "false" model = "421" isim="[ HYUNDAİ ]  Accent" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	
+<file src = "kilitli/458.txdzimenorsiker" download = "false" model = "458" isim="[ OPEL ]  İnsignia" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/458.dffzimenorsiker" download = "false" model = "458" isim="[ OPEL ]  İnsignia" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	
+	
+<file src = "kilitli/416.txdzimenorsiker" download = "false" model = "416" isim="[ FORD ] Transit" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/416.dffzimenorsiker" download = "false" model = "416" isim="[ FORD ] Transit" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	
+<file src = "kilitli/451.txdzimenorsiker" download = "false" model = "451" isim="[ NİSSAN ] Sılvıa S15" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/451.dffzimenorsiker" download = "false" model = "451" isim="[ NİSSAN ] Sılvıa S15" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	
+<file src = "kilitli/526.txdzimenorsiker" download = "false" model = "526" isim="[ SUBARU ] İmpreza" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/526.dffzimenorsiker" download = "false" model = "526" isim="[ SUBARU ] İmpreza" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	
+<file src = "kilitli/527.txdzimenorsiker" download = "false" model = "527" isim="[ BMW ] E60" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/527.dffzimenorsiker" download = "false" model = "527" isim="[ BMW ] E60" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	
+<file src = "kilitli/542.txdzimenorsiker" download = "false" model = "542" isim="[ TOYOTA ] Supra 2020" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	<file src = "kilitli/542.dffzimenorsiker" download = "false" model = "542" isim="[ TOYOTA ] Supra 2020" dosyatipi="Araçlar Yükleniyor"  sifre="kingofzimenor"/>
+	
+
+ <file src = "kilitsiz/jandarma.txd" download = "false" model = "575" isim="BMW E30 [YENI]" dosyatipi="Araçlar Yükleniyor"  />
+<file src = "kilitsiz/jandarma.dff" download = "false" model = "575" isim="BMW E30 [YENI]" dosyatipi="Araçlar Yükleniyor"  />
+  <file src = "kilitsiz/434.txd" download = "false" model = "434" isim="Murat 124 [YENI]" dosyatipi="Araçlar Yükleniyor"  />
+<file src = "kilitsiz/434.dff" download = "false" model = "434" isim="Murat 124 [YENI]" dosyatipi="Araçlar Yükleniyor"  />
+<file src = "kilitsiz/polis.txd" download = "false" model = "603" isim="Fiat Albea [YENI]" dosyatipi="Araçlar Yükleniyor"  />
+<file src = "kilitsiz/polis.dff" download = "false" model = "603" isim="Fiat Albea [YENI]" dosyatipi="Araçlar Yükleniyor"  />
+<file src = "kilitsiz/525.txd" download = "false" model = "525" isim="Ford Çekici [YENI]" dosyatipi="Araçlar Yükleniyor"  />--
+<file src = "kilitsiz/525.dff" download = "false" model = "525" isim="Ford Çekici [YENI]" dosyatipi="Araçlar Yükleniyor"  />--
+<file src = "kilitsiz/442.txd" download = "false" model = "442" isim="Lada Vaz [YENI]" dosyatipi="Araçlar Yükleniyor"  /> --
+<file src = "kilitsiz/442.dff" download = "false" model = "442" isim="Lada Vaz [YENI]" dosyatipi="Araçlar Yükleniyor"  />--
+
+--------------------------------------- SİKİNLER ------------------------------------- [HEPSİ SANA GİRSİN OROSPU ÇOCUĞU İSA]
+
+
+				<file src = "karakterler/2.txd" download = "false" model = "2" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/2.dff" download = "false" model = "2" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+
+				<file src = "karakterler/10.txd" download = "false" model = "10" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/10.dff" download = "false" model = "10" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+
+				<file src = "karakterler/11.txd" download = "false" model = "11" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/11.dff" download = "false" model = "11" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+
+				<file src = "karakterler/12.txd" download = "false" model = "12" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/12.dff" download = "false" model = "12" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+
+		<file src = "karakterler/13.txd" download = "false" model = "13" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/13.dff" download = "false" model = "13" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+	
+				<file src = "karakterler/1.txd" download = "false" model = "1" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/1.dff" download = "false" model = "1" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+
+				<file src = "karakterler/24.txd" download = "false" model = "24" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/24.dff" download = "false" model = "24" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+
+
+				<file src = "karakterler/29.txd" download = "false" model = "29" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/29.dff" download = "false" model = "29" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+
+				<file src = "karakterler/31.txd" download = "false" model = "31" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/31.dff" download = "false" model = "31" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+
+				<file src = "karakterler/44.txd" download = "false" model = "44" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/44.dff" download = "false" model = "44" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+
+				<file src = "karakterler/47.txd" download = "false" model = "47" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/47.dff" download = "false" model = "47" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+
+				<file src = "karakterler/54.txd" download = "false" model = "54" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/54.dff" download = "false" model = "54" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+
+				<file src = "karakterler/75.txd" download = "false" model = "75" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/75.dff" download = "false" model = "75" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+
+				<file src = "karakterler/128.txd" download = "false" model = "128" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/128.dff" download = "false" model = "128" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />	
+
+				<file src = "karakterler/156.txd" download = "false" model = "156" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/156.dff" download = "false" model = "156" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+
+			<file src = "karakterler/157.txd" download = "false" model = "157" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/157.dff" download = "false" model = "157" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+
+				<file src = "karakterler/160.txd" download = "false" model = "160" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/160.dff" download = "false" model = "160" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+
+				<file src = "karakterler/230.txd" download = "false" model = "230" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/230.dff" download = "false" model = "230" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+
+				<file src = "karakterler/244.txd" download = "false" model = "244" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/244.dff" download = "false" model = "244" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+
+				<file src = "karakterler/41.txd" download = "false" model = "41" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/41.dff" download = "false" model = "41" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+
+				<file src = "karakterler/22.txd" download = "false" model = "22" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/22.dff" download = "false" model = "22" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+
+				<file src = "karakterler/30.txd" download = "false" model = "30" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/30.dff" download = "false" model = "30" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+
+				<file src = "karakterler/36.txd" download = "false" model = "36" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/36.dff" download = "false" model = "36" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+	
+	            <file src = "karakterler/264.txd" download = "false" model = "264" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/264.dff" download = "false" model = "264" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+	
+	            <file src = "karakterler/49.txd" download = "false" model = "49" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+    <file src = "karakterler/49.dff" download = "false" model = "49" isim="Karakter [Skin]" dosyatipi="Araçlar Yükleniyor" />
+
+	
+</meta>

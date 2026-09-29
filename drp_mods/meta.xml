@@ -1,0 +1,142 @@
+<meta>
+    <script src=".crown/bundle.lua" type="shared" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728" />
+    <oop>true</oop>
+
+	<script src="server.lua" type="server" />
+	<script src="client.lua" type="client" cache="false" />
+	
+	<export function="unloadAllModels" type="client" />
+	<export function="loadAllModels" type="client" />
+	
+	<!-- Araç Modları -->
+	<file src="public/models/458.txd" model="458" />
+    <file src="public/models/458.dff" model="458" />
+	
+	<file src="public/models/494.txd" model="494" />
+    <file src="public/models/494.dff" model="494" />
+
+	<file src="public/models/502.txd" model="502" />
+    <file src="public/models/502.dff" model="502" />
+	
+	<file src="public/models/503.txd" model="503" />
+    <file src="public/models/503.dff" model="503" />
+	
+	<file src="public/models/559.txd" model="559" />
+    <file src="public/models/559.dff" model="559" />
+	
+	<file src="public/models/554.txd" model="554" />
+    <file src="public/models/554.dff" model="554" />
+	
+	<file src="public/models/479.txd" model="479" />
+    <file src="public/models/479.dff" model="479" />
+	
+	<file src="public/models/549.txd" model="549" />
+    <file src="public/models/549.dff" model="549" />
+	
+	<file src="public/models/419.txd" model="419" />
+    <file src="public/models/419.dff" model="419" />
+	
+	<file src="public/models/516.txd" model="516" />
+    <file src="public/models/516.dff" model="516" />
+	
+	<file src="public/models/527.txd" model="527" />
+    <file src="public/models/527.dff" model="527" />
+	
+	<file src="public/models/412.txd" model="412" />
+    <file src="public/models/412.dff" model="412" />
+	
+	<file src="public/models/515.txd" model="515" />
+    <file src="public/models/515.dff" model="515" />
+	
+	<file src="public/models/540.txd" model="540" />
+    <file src="public/models/540.dff" model="540" />
+	
+	<file src="public/models/496.txd" model="496" />
+    <file src="public/models/496.dff" model="496" />
+	
+	<file src="public/models/445.txd" model="445" />
+    <file src="public/models/445.dff" model="445" />
+	
+	<file src="public/models/411.txd" model="411" />
+    <file src="public/models/411.dff" model="411" />
+	
+	<file src="public/models/429.txd" model="429" />
+    <file src="public/models/429.dff" model="429" />
+	
+	<file src="public/models/420.txd" model="420" />
+    <file src="public/models/420.dff" model="420" />
+	
+	<file src="public/models/546.txd" model="546" />
+    <file src="public/models/546.dff" model="546" />
+	
+	<file src="public/models/542.txd" model="542" />
+    <file src="public/models/542.dff" model="542" />
+	
+	<file src="public/models/507.txd" model="507" />
+    <file src="public/models/507.dff" model="507" />
+	
+	<file src="public/models/470.txd" model="470" />
+    <file src="public/models/470.dff" model="470" />
+	
+	<file src="public/models/578.txd" model="578" />
+    <file src="public/models/578.dff" model="578" />
+	
+	<file src="public/models/611.txd" model="611" />
+    <file src="public/models/611.dff" model="611" />
+
+	<file src="public/models/541.txd" model="541" />
+    <file src="public/models/541.dff" model="541" />
+
+	<file src="public/models/438.txd" model="438" />
+    <file src="public/models/438.dff" model="438" />
+
+	<file src="public/models/547.txd" model="547" />
+    <file src="public/models/547.dff" model="547" />
+
+	<file src="public/models/474.txd" model="474" />
+    <file src="public/models/474.dff" model="474" />
+
+	<file src="public/models/550.txd" model="550" />
+    <file src="public/models/550.dff" model="550" />
+
+	<file src="public/models/410.txd" model="410" />
+    <file src="public/models/410.dff" model="410" />
+
+	<!-- Legal Araç Modları -->
+	<file src="public/models/428.txd" model="428" />
+    <file src="public/models/428.dff" model="428" />
+
+	<file src="public/models/523.txd" model="523" />
+    <file src="public/models/523.dff" model="523" />
+
+	<file src="public/models/528.txd" model="528" />
+    <file src="public/models/528.dff" model="528" />
+
+	<file src="public/models/596.txd" model="596" />
+    <file src="public/models/596.dff" model="596" />
+
+	<file src="public/models/597.txd" model="597" />
+    <file src="public/models/597.dff" model="597" />
+
+	<file src="public/models/598.txd" model="598" />
+    <file src="public/models/598.dff" model="598" />
+
+	<file src="public/models/599.txd" model="599" />
+    <file src="public/models/599.dff" model="599" />
+
+	<file src="public/models/601.txd" model="601" />
+    <file src="public/models/601.dff" model="601" />
+
+	<file src="public/models/416.txd" model="416" />
+    <file src="public/models/416.dff" model="416" />
+
+	<!-- Objeler -->
+	<file src="public/models/488.txd" model="488" />
+	<file src="public/models/582.txd" model="582" />
+	<file src="public/models/4003.txd" model="4003" />
+
+	<file src="public/models/834.col" model="834" />
+	<file src="public/models/834.dff" model="834" />
+	<file src="public/models/834.txd" model="834" />
+</meta>

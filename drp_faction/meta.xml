@@ -1,0 +1,48 @@
+<meta>
+    <script src=".crown/bundle.lua" type="shared" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728" />
+    <oop>true</oop>
+
+	<script src="server/core.lua" type="server" />
+	<script src="client/core.lua" type="client" cache="false" />
+	
+	<script src="server/admin.lua" type="server" />
+	<script src="client/admin.lua" type="client" cache="false" />
+	
+	<script src="shared/exports.lua" type="shared" cache="false" />
+	<script src="server/exports.lua" type="server" />
+	<script src="client/exports.lua" type="client" cache="false" />
+
+	<script src="server/manager.lua" type="server" />
+	<script src="client/manager.lua" type="client" cache="false" />
+	<export function="canAccessFactionManager" type="shared" />
+	<export function="getFactionType" type="shared" />
+
+	<script src="server/ranks.lua" type="server" />
+	<script src="client/ranks.lua" type="client" cache="false" />
+	<export function="getFactionRankData" type="server" />
+	
+	<script src="server/permissions.lua" type="server" />
+	<script src="client/permissions.lua" type="client" cache="false" />
+	<export function="hasMemberPermissionTo" type="server" />
+	<export function="hasMemberPermissionTo" type="client" />
+
+	<script src="server/create.lua" type="server" />
+	<script src="client/create.lua" type="client" cache="false" />
+
+	<export function="isPlayerInFaction" type="shared" />
+	<export function="getPlayerFactionRank" type="shared" />
+	<export function="isPlayerFactionLeader" type="shared" />
+	<export function="getFactionFromID" type="shared" />
+	<export function="getFactionName" type="shared" />
+	<export function="getFactionType" type="shared" />
+	<export function="getFactionFromName" type="shared" />
+	<export function="getFactionIDFromName" type="shared" />
+	<export function="sendNotiToAllFactionMembers" type="server" /> 
+	<export function="getPlayersInFaction" type="shared" />
+	<export function="getPlayerFactions" type="server" />
+	<export function="isInFactionType" type="shared" />
+	<export function="getPlayerFactionTypes" type="shared" />
+	<export function="getCurrentFactionDuty" type="shared" />
+	<export function="getAllFactionPhoneNumbers" type="shared" />
+</meta>

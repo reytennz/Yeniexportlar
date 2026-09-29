@@ -1,0 +1,6 @@
+﻿<meta>
+    <info author="BlackMarket System" version="1.0" type="script" name="BlackMarket RP"/>
+    <script src="client.lua" type="client"/>
+    <script src="server.lua" type="server"/>
+    <file src="gui.html"/>
+</meta>

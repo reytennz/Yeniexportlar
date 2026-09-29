@@ -1,0 +1,12 @@
+<meta>
+    <info author="THEGizmo" name="Model Salonu LS" version="2.0" />
+	
+    <script src="c.lua" type="client" cache="false" />
+	
+	<file src="modele/sunset01_law2.txd"/>
+	<file src="modele/sunset01_law2.dff"/>
+	<file src="modele/sunset01_law2.col"/>
+	
+	<file src="modele/sunset04tr_law2.dff"/>
+	<file src="modele/sunset04tr_law2.col"/>
+</meta>

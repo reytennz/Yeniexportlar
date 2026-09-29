@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <title>BlackMarket</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: Inter, Arial, sans-serif; user-select: none; }
+        html, body { width: 100%; height: 100%; background: rgba(0, 0, 0, 0.55); display: flex; justify-content: center; align-items: center; }
+        body { overflow: hidden; }
+        .window { width: min(900px, 95vw); max-width: 920px; height: min(560px, 90vh); background: rgba(12, 12, 12, 0.85); border-radius: 20px; padding: 24px; display: flex; gap: 18px; border: 1px solid rgba(255,255,255,0.08); backdrop-filter: blur(10px); box-shadow: 0 24px 60px rgba(0,0,0,0.35); position: relative; }
+        .panel { background: rgba(24, 24, 24, 0.92); border-radius: 16px; padding: 20px; flex: 1; display: flex; flex-direction: column; gap: 18px; border: 1px solid rgba(255,255,255,0.06); }
+        .panel.right { flex: 0.9; }
+        h2 { color: #f4f4f4; font-size: 18px; letter-spacing: 0.75px; }
+        .close { position: absolute; top: 18px; right: 18px; color: #b8b8b8; font-size: 26px; cursor: pointer; transition: color 0.15s ease; }
+        .close:hover { color: #fff; }
+        #items { flex: 1; overflow-y: auto; padding-right: 4px; display: grid; gap: 12px; }
+        .item { display: flex; justify-content: space-between; align-items: center; padding: 16px; border-radius: 14px; background: rgba(255,255,255,0.04); border: 1px solid transparent; cursor: pointer; transition: transform 0.15s ease, background 0.15s ease, border 0.15s ease; }
+        .item:hover { background: rgba(255,255,255,0.08); transform: translateY(-1px); }
+        .item.active { border-color: rgba(255, 90, 90, 0.45); background: rgba(255, 90, 90, 0.12); }
+        .item-info { display: grid; gap: 6px; }
+        .item-name { color: #ffffff; font-weight: 600; font-size: 15px; }
+        .item-meta { color: #b5b5b5; font-size: 13px; }
+        .item-price { color: #7efc9f; font-weight: 700; font-size: 16px; }
+        .summary { display: flex; flex-direction: column; gap: 16px; color: #d2d2d2; font-size: 14px; }
+        .summary .label { color: #8f8f8f; font-size: 12px; text-transform: uppercase; letter-spacing: 1px; }
+        .summary .value { color: #ffffff; font-size: 20px; font-weight: 700; }
+        .buy-button { display: inline-flex; justify-content: center; align-items: center; padding: 16px 0; background: linear-gradient(135deg, #ff4854, #c02424); border-radius: 14px; color: #fff; font-weight: 700; letter-spacing: 0.6px; cursor: pointer; transition: transform 0.18s ease, filter 0.18s ease; box-shadow: 0 16px 30px rgba(255, 72, 84, 0.25); }
+        .buy-button:hover { transform: translateY(-2px); filter: brightness(1.05); }
+        .buy-button.disabled { opacity: 0.5; pointer-events: none; box-shadow: none; }
+    </style>
+</head>
+<body>
+    <div class="window">
+        <div class="close" onclick="mta.triggerEvent('closeBlackMarketUI')">×</div>
+        <div class="panel left">
+            <h2>BlackMarket Ürünleri</h2>
+            <div id="items">
+                <div class="item" data-id="22" data-name="Cold 45" data-price="5000" data-ammo="50">
+                    <div class="item-info">
+                        <div class="item-name">Cold 45</div>
+                        <div class="item-meta">50 mermi</div>
+                    </div>
+                    <div class="item-price">$5000</div>
+                </div>
+                <div class="item" data-id="24" data-name="Deagle" data-price="12000" data-ammo="35">
+                    <div class="item-info">
+                        <div class="item-name">Deagle</div>
+                        <div class="item-meta">35 mermi</div>
+                    </div>
+                    <div class="item-price">$12000</div>
+                </div>
+                <div class="item" data-id="25" data-name="Shotgun" data-price="15000" data-ammo="25">
+                    <div class="item-info">
+                        <div class="item-name">Shotgun</div>
+                        <div class="item-meta">25 mermi</div>
+                    </div>
+                    <div class="item-price">$15000</div>
+                </div>
+                <div class="item" data-id="28" data-name="Uzi" data-price="18000" data-ammo="100">
+                    <div class="item-info">
+                        <div class="item-name">Uzi</div>
+                        <div class="item-meta">100 mermi</div>
+                    </div>
+                    <div class="item-price">$18000</div>
+                </div>
+                <div class="item" data-id="29" data-name="MP5" data-price="20000" data-ammo="120">
+                    <div class="item-info">
+                        <div class="item-name">MP5</div>
+                        <div class="item-meta">120 mermi</div>
+                    </div>
+                    <div class="item-price">$20000</div>
+                </div>
+                <div class="item" data-id="30" data-name="AK47" data-price="28000" data-ammo="150">
+                    <div class="item-info">
+                        <div class="item-name">AK47</div>
+                        <div class="item-meta">150 mermi</div>
+                    </div>
+                    <div class="item-price">$28000</div>
+                </div>
+                <div class="item" data-id="31" data-name="M4" data-price="30000" data-ammo="150">
+                    <div class="item-info">
+                        <div class="item-name">M4</div>
+                        <div class="item-meta">150 mermi</div>
+                    </div>
+                    <div class="item-price">$30000</div>
+                </div>
+                <div class="item" data-id="32" data-name="Tec-9" data-price="22000" data-ammo="110">
+                    <div class="item-info">
+                        <div class="item-name">Tec-9</div>
+                        <div class="item-meta">110 mermi</div>
+                    </div>
+                    <div class="item-price">$22000</div>
+                </div>
+            </div>
+        </div>
+        <div class="panel right">
+            <div class="summary">
+                <div>
+                    <div class="label">Seçim</div>
+                    <div id="selectedName">Bir ürün seçin.</div>
+                </div>
+                <div>
+                    <div class="label">Açıklama</div>
+                    <div id="selectedInfo">Sağdan alışverişinizi tamamlayabilirsiniz.</div>
+                </div>
+                <div>
+                    <div class="label">Toplam</div>
+                    <div class="value" id="selectedPrice">$0</div>
+                </div>
+            </div>
+            <div id="buyButton" class="buy-button disabled" onclick="buyItem()">Satın Al</div>
+        </div>
+    </div>
+
+    <script>
+        let selectedWeapon = null;
+
+        function loadWeapons(weaponsJson) {
+            console.log("[BlackMarket] loadWeapons called with:", weaponsJson);
+            
+            let weapons;
+            if (typeof weaponsJson === 'string') {
+                try {
+                    weapons = JSON.parse(weaponsJson);
+                    console.log("[BlackMarket] JSON parsed successfully:", weapons);
+                } catch (e) {
+                    console.error("[BlackMarket] JSON parse error:", e, "Raw:", weaponsJson);
+                    return;
+                }
+            } else {
+                weapons = weaponsJson;
+                console.log("[BlackMarket] Weapons is already object:", weapons);
+            }
+
+            const list = document.getElementById('items');
+            list.innerHTML = '';
+
+            if (!Array.isArray(weapons)) {
+                console.error("[BlackMarket] Weapons is not an array!", weapons);
+                return;
+            }
+
+            weapons.forEach(weapon => {
+                console.log("[BlackMarket] Processing weapon:", weapon);
+                const item = document.createElement('div');
+                item.className = 'item';
+                item.innerHTML = `
+                    <div class="item-info">
+                        <div class="item-name">${weapon.name || 'Unknown'}</div>
+                        <div class="item-meta">${weapon.ammo || '0'} mermi</div>
+                    </div>
+                    <div class="item-price">$${weapon.price || '0'}</div>
+                `;
+
+                item.addEventListener('click', () => {
+                    document.querySelectorAll('.item').forEach(el => el.classList.remove('active'));
+                    item.classList.add('active');
+                    selectedWeapon = weapon;
+                    document.getElementById('selectedName').textContent = weapon.name;
+                    document.getElementById('selectedInfo').textContent = weapon.ammo + ' mermi ile geliyor.';
+                    document.getElementById('selectedPrice').textContent = '$' + weapon.price;
+                    document.getElementById('buyButton').classList.remove('disabled');
+                });
+
+                list.appendChild(item);
+            });
+        }
+
+        // Test: Silahları hardcode et
+        window.addEventListener('DOMContentLoaded', function() {
+            console.log("[BlackMarket] Page loaded, checking weapons...");
+            if (!window.blackMarketWeapons || window.blackMarketWeapons.length === 0) {
+                console.log("[BlackMarket] No weapons from server, using hardcoded test weapons");
+                window.blackMarketWeapons = [
+                    {id: 22, name: "Colt 45", price: 5000, ammo: 50},
+                    {id: 24, name: "Deagle", price: 12000, ammo: 35},
+                    {id: 29, name: "MP5", price: 20000, ammo: 120},
+                    {id: 31, name: "M4", price: 30000, ammo: 150}
+                ];
+                loadWeapons(window.blackMarketWeapons);
+            }
+        });
+
+        function buyItem() {
+            if (!selectedWeapon) {
+                return;
+            }
+            mta.triggerEvent('onBlackMarketBuyClient', selectedWeapon.id, selectedWeapon.price, selectedWeapon.ammo);
+        }
+
+        window.addEventListener('keydown', event => {
+            if (event.key === 'Escape') {
+                mta.triggerEvent('closeBlackMarketUI');
+            }
+        });
+    </script>
+</body>
+</html>

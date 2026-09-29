@@ -1,0 +1,58 @@
+<meta>
+    <script src=".crown/bundle.lua" type="shared" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728" />
+    <oop>true</oop>
+
+    <script src="server/admin.lua" type="server" />
+    <script src="server/core.lua" type="server" />
+    <export function="addSafeAtPosition" type="server" />
+    <export function="publicSellProperty" type="server" />
+    <export function="cleanupProperty" type="server" />
+    <export function="findProperty" type="server" />
+    <export function="findParent" type="server" />
+    <export function="lockUnlockHouseEvent" type="server" />
+    <export function="reloadInterior" type="server" />
+    <export function="realReloadInterior" type="server" />
+    <export function="moveCharactersOutside" type="server" />
+	
+    <script src="client/core.lua" type="client" cache="false" />
+    <script src="server/shout.lua" type="server" />
+    <script src="client/pickups.lua" type="client" cache="false" />
+    <script src="shared/shared.lua" type="shared" cache="false" />
+    <script src="client/blips.lua" type="client" />
+    
+    <export function="findProperty" type="client" />
+    <export function="findParent" type="client" />
+    <export function="canEnterInterior" type="client" />
+    <export function="setPlayerInsideInterior" type="server" />
+    <export function="setPlayerInsideInterior3" type="server" />
+    
+    <export function="canPlayerKnowInteriorOwner" type="client" />
+    <export function="canPlayerSeeInteriorID" type="client" />
+    
+    <script src="shared/activity.lua" type="shared" cache="false" />
+    
+    <export function="isActive" type="client" />
+    <export function="isActive" type="server" />
+    
+    <export function="isProtected" type="client" />
+    <export function="isProtected" type="server" />
+
+    <script src="server/sounds.lua" type="server" />
+    <script src="client/sounds.lua" type="client" cache="false" />
+
+    <script src="server/settings.lua" type="server" />
+    <script src="client/settings.lua" type="client" cache="false" />
+    <export function="getInteriorSetting" type="server" />
+
+    <script src="server/safe.lua" type="server" />
+	<export function="clearSafe" type="server" />
+    <export function="getSafe" type="server" />
+    <export function="addSafe" type="server" />
+    <export function="editSafe" type="server" />
+
+    <export function="unownProperty" type="server" />
+	<export function="tempFix" type="shared" />
+
+    <file src="public/**/*.*" />
+</meta>

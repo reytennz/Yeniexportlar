@@ -1,0 +1,38 @@
+<meta>
+    <script src=".crown/bundle.lua" type="shared" cache="false" />
+    <min_mta_version server="1.6.0-9.22459" client="1.5.6-9.18728" />
+    <oop>true</oop>
+    <download_priority_group>999</download_priority_group>
+    
+    <script src="client/core.lua" type="client" cache="false" />
+    <script src="client/debug_message.lua" type="client" cache="false" />
+    <script src="client/dx_check.lua" type="client" cache="false" />
+    <script src="client/element_data.lua" type="client" cache="false" />
+    <script src="client/function_blocker.lua" type="client" cache="false" />
+    <script src="client/movement_analyzer.lua" type="client" cache="false" />
+    <script src="client/noclip.lua" type="client" cache="false" />
+    <script src="client/projectile.lua" type="client" cache="false" />
+    <script src="client/rapid_fire.lua" type="client" cache="false" />
+    <script src="client/serial_spoof.lua" type="client" cache="false" />
+    <script src="client/teleport.lua" type="client" cache="false" />
+    <script src="client/wallhack.lua" type="client" cache="false" />
+    <script src="client/weapon_protection.lua" type="client" cache="false" />
+    <script src="client/world_scan.lua" type="client" cache="false" />
+    
+    <script src="server/core.lua" type="server" />
+    <script src="server/aimbot.lua" type="server" />
+    <script src="server/anti_spam.lua" type="server" />
+    <script src="server/element_data.lua" type="server" />
+    <script src="server/event_spam.lua" type="server" />
+    <script src="server/explosion.lua" type="server" />
+    <script src="server/forbidden_weapon.lua" type="server" />
+    <script src="server/godmode.lua" type="server" />
+    <script src="server/jetpack.lua" type="server" />
+    <script src="server/rapid_fire.lua" type="server" />
+    <script src="server/screenshot.lua" type="server" />
+    <script src="server/serial_spoof.lua" type="server" />
+    <script src="server/speed_hack.lua" type="server" />
+    <script src="server/vpn_check.lua" type="server" />
+    
+    <export function="banForEventAbuse" type="server" />
+</meta>

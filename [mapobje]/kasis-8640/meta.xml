@@ -1,0 +1,7 @@
+<meta>
+<info author="Nikoo" version="1.0" type="script"/>
+<script src="scriptC.lua" type="client"/>
+<file src="model.dff" type="client"/>
+<file src="model.txd" type="client"/>
+<file src="model.col" type="client"/>
+</meta>

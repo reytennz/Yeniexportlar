@@ -1,0 +1,53 @@
+<meta>
+    <script src=".crown/bundle.lua" type="shared" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728" />
+    <oop>true</oop>
+	
+	<script src="shared/Contacts.enums.lua" type="shared" cache="false" />
+	<script src="shared/PhoneAnimation.lua" type="shared" cache="false" />
+
+	<script src="server/functions.lua" type="server" />
+	<script src="server/events.lua" type="server" />
+	<script src="server/commands.lua" type="server" />
+
+	<script src="client/Phone.lua" type="client" cache="false" />
+	<script src="client/PhoneAnimation.lua" type="client" cache="false" />
+
+	<script src="client/api/Gallery.lua" type="client" cache="false" />
+
+	<script src="client/components/Header.lua" type="client" cache="false" />
+	<script src="client/components/Layout.lua" type="client" cache="false" />
+	<script src="client/components/Tabs.lua" type="client" cache="false" />
+	<script src="client/components/BottomMenu.lua" type="client" cache="false" />
+	<script src="client/components/Photo.lua" type="client" cache="false" />
+
+	<script src="client/apps/Call.lua" type="client" cache="false" />
+	<script src="client/apps/Camera.lua" type="client" cache="false" />
+	<script src="client/apps/Camera.utils.lua" type="client" cache="false" />
+	<script src="client/apps/Contacts.lua" type="client" cache="false" />
+	<script src="client/apps/Gallery.lua" type="client" cache="false" />
+	<script src="client/apps/Home.lua" type="client" cache="false" />
+	<script src="client/apps/Twitter.lua" type="client" cache="false" />
+	<script src="client/apps/Settings.lua" type="client" cache="false" />
+
+	<script src="client/apps/Call/CallActive.lua" type="client" cache="false" />
+	<script src="client/apps/Call/CallIncoming.lua" type="client" cache="false" />
+	<script src="client/apps/Call/CallOutgoing.lua" type="client" cache="false" />
+	<script src="client/apps/Call/CallSoundStreamer.lua" type="client" cache="false" />
+
+	<script src="client/apps/Contacts/ContactsAdd.lua" type="client" cache="false" />
+	<script src="client/apps/Contacts/ContactsCall.lua" type="client" cache="false" />
+	<script src="client/apps/Contacts/ContactsEdit.lua" type="client" cache="false" />
+	<script src="client/apps/Contacts/ContactsFavorites.lua" type="client" cache="false" />
+	<script src="client/apps/Contacts/ContactsHistory.lua" type="client" cache="false" />
+	<script src="client/apps/Contacts/ContactsList.lua" type="client" cache="false" />
+
+	<script src="client/apps/Gallery/GalleryPhoto.lua" type="client" cache="false" />
+	
+	<export function="createPhoneNumberForCharacter" type="server" />
+	<export function="generateUniquePhoneNumber" type="server" />
+	<export function="getPlayerByPhoneNumber" type="server" />
+	<export function="isVisible" type="client" />
+	
+	<file src="public/**/*.*" />
+</meta>

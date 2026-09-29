@@ -1,0 +1,318 @@
+﻿<catalog type="vehicle">
+	
+	<group name="║•● Ayasofya Freeroam Arabalar •●">
+<group name="" />
+<vehicle id="0" name="•●═══════ YENI ARAÇLAR ═══════●•" /> 
+<group name="" />
+<vehicle id="443" name="•● [Çekici ]" />
+<vehicle id="525" name="•● [ Ford ] Çekici [YENİ]" />
+<vehicle id="575" name="•● [ BMW ]  E30 [YENI]" />
+<vehicle id="603" name="•● [ FIAT ]  Albea [YENI] "/>
+<vehicle id="434" name="•● [ TOFAS ]  Murat 124 [YENI] "/>
+<vehicle id="442" name="•● [ LADA ]  Vaz 2106 [YENI] "/>
+<group name="" />
+<vehicle id="0" name="•●═══════ GENEL ARAÇLAR ═══════●•" /> 
+		<vehicle id="0" name="" />
+		    <vehicle id="400" name="•● [ ESCALADE ] Cadillac"/>
+		    <vehicle id="401" name="•● [ HYUNDAI ]  H 100" />
+		    <vehicle id="458" name="•● [ OPEL ]  İnsignia" />	
+		    <vehicle id="421" name="•● [ HYUNDAİ ]  Accent" />	
+			<vehicle id="605" name="•● [ PEUGEOT ]  106" />			
+			<vehicle id="580" name="•● [ LAMBORGHINI ]  Huracan" />
+			<vehicle id="587" name="•● [ MAZDA ]  Rx 8 " />
+            <vehicle id="558" name="•● [ MAZDA ]  RX 7" />			
+            <vehicle id="445" name="•● [ MAZDA ]  Speed 3" />	
+			<vehicle id="518" name="•● [ MCLAREN ] P1 Sport Pack " />
+			<vehicle id="492" name="•● [ MITSUBISHI ]  EVO 9" />
+			<vehicle id="475" name="•● [ TOYOTA ]  Supra   " />
+			<vehicle id="418" name="•● [ TOYOTA ] Mark 2"/>
+			<vehicle id="542" name="•● [ TOYOTA ] Supra 2020"/>
+			<vehicle id="526" name="•● [ SUBARU ] İmpreza"/>
+	<vehicle id="0" name="" />
+<vehicle id="0" name="•●═══════ AUDİ - ALFA ═══════●•" /> 
+	        <vehicle id="0" name="" />
+		    <vehicle id="567" name="•● [ AUDI ]  R8" />
+	        <vehicle id="466" name="•● [ AUDI ]  A4" />
+			<vehicle id="534" name="•● [ ALFA ROMEO ] Giulia "/>
+<vehicle id="0" name="" />
+<vehicle id="0" name="•●═══════ BMW - SKODA ═══════●•" /> 
+			<vehicle id="527" name="•● [ BMW ] E60"/>
+	        <vehicle id="575" name="•● [ BMW ]  E30 [YENI]" />	
+			<vehicle id="404" name="•● [ BMW ]  525 " />
+	        <vehicle id="565" name="•● [ BMW ]  M3 v2" />
+	        <vehicle id="477" name="•● [ BMW ] M3 "/>
+	        <vehicle id="546" name="•● [ BMW ]  M4" />
+	        <vehicle id="541" name="•● [ BMW ]  M5 F10" />			
+	        <vehicle id="549" name="•● [ BMW ]  Cabrio" />
+			<vehicle id="496" name="•● [ SKODA ]  Super B  " />  
+<vehicle id="0" name="" />	
+<vehicle id="0" name="•●═══════ DODGE - PORSCHE ═══════●•" /> 
+		<vehicle id="0" name="" />			
+		    <vehicle id="502" name="•● [ DODGE ] Demon"/>
+            <vehicle id="494" name="•● [ DODGE ] Charger 1970"/>
+			<vehicle id="429" name="•● [ PORSCHE ] 911 GT" />							
+			<vehicle id="0" name="" />	
+<vehicle id="0" name="•●═══════ RENAULT - RANGE ═══════●•" /> 
+		<vehicle id="0" name="" />	
+			<vehicle id="505" name="•● [ RANGE ]  Rover " />
+			<vehicle id="603" name="•● [ RENAULT ]  Megane 3 RS" />
+	        <vehicle id="566" name="•● [ RENAULT ]  Megane 2" />
+	        <vehicle id="457" name="•● [ RENAULT ] Twizy"/>
+	        <vehicle id="550" name="•● [ RENAULT ]  Toros" />			
+		 
+<vehicle id="0" name="" />		
+<vehicle id="0" name="•●═══════ FİAT - FERRARİ ═══════●•" /> 
+		<vehicle id="0" name="" />	
+			<vehicle id="402" name="•● [ FERRARİ ]  458 İtaly" />
+<vehicle id="603" name="•● [ FIAT]  Albea [YENI] "/>
+			<vehicle id="413" name="•● [ FIAT ]  Fiorino" />
+			<vehicle id="507" name="•● [ FIAT ]  Doblo" />
+			<vehicle id="535" name="•● [ FİAT ] Ducato "/>
+<vehicle id="0" name="" />	
+<vehicle id="0" name="•●═══════ FORD ═══════●•" /> 
+		<vehicle id="0" name="" />
+            <vehicle id="529" name="•● [ FORD ] Focus Sedan"/>		
+	        <vehicle id="470" name="•● [ FORD ]  F15 " />
+            <vehicle id="585" name="•● [ FORD ]  Transit" />
+	        <vehicle id="503" name="•● [ FORD ] Mustang GT"/>
+	        <vehicle id="560" name="•● [ FORD ]  Courier " />
+<vehicle id="0" name="" />	
+<vehicle id="0" name="•●═══════ HONDA ═══════●•" /> 
+		<vehicle id="0" name="" />
+		    <vehicle id="561" name="•● [ HONDA ]  Civic Typer  " />
+		    <vehicle id="405" name="•● [ HONDA ]  S2000 Üstü Açık  " />
+		    <vehicle id="426" name="•● [ HONDA ]  S2000  " />
+	        <vehicle id="411" name="•● [ HONDA ] Civic Vtec 1"/>
+		    <vehicle id="543" name="•● [ HONDA ] Civic HB"/>
+	<vehicle id="0" name="" />
+<vehicle id="0" name="•●═══════ MERCEDES ═══════●•" /> 
+		<vehicle id="0" name="" />
+		    <vehicle id="600" name="•● [ MERCEDES ]  E 500  " />
+	        <vehicle id="579" name="•● [ MERCEDES ]  G63" />
+            <vehicle id="479" name="•● [ MERCEDES ] Cls63 "/>
+	        <vehicle id="533" name="•● [ MERCEDES ]  S600 Maybach"/>
+	        <vehicle id="410" name="•● [ MERCEDES ]  GT " />
+	        <vehicle id="474" name="•● [ MERCEDES ]  Actros"/>
+	        <vehicle id="545" name="•● [ MERCEDES ]  Sprinter"/>
+	<vehicle id="0" name="" />
+<vehicle id="0" name="•●═══════ NİSSAN ═══════●•" /> 
+		<vehicle id="0" name="" />
+			<vehicle id="439" name="•● [ NİSSAN ] Qashqai"/>
+		    <vehicle id="500" name="•● [ NİSSAN ] Skyline GT-R35"/>
+		    <vehicle id="412" name="•● [ NİSSAN ] Skyline R33"/>		
+		    <vehicle id="589" name="•● [ NİSSAN ] 240 SX"/>
+		    <vehicle id="422" name="•● [ NİSSAN ] Skyline R34"/>
+			<vehicle id="451" name="•● [ NİSSAN ] Sılvıa S15"/>
+		    <vehicle id="555" name="•● [ NİSSAN ] Sılvıa S14"/>
+		    <vehicle id="562" name="•● [ NISSAN ] 350Z"/>
+		<vehicle id="0" name="" />
+<vehicle id="0" name="•●═══════ TOFAŞ ═══════●•" /> 
+		<vehicle id="0" name="" />
+            <vehicle id="438" name="•● [ TOFAS ]  Tempra " />		
+		    <vehicle id="491" name="•● [ TOFAS ]  Doğan SLX " />
+		    <vehicle id="596" name="•● [ TOFAS ]  Kartal SLX " />
+		    <vehicle id="551" name="•● [ TOFAS ]  Brazzers " />
+		    <vehicle id="582" name="•● [ TOFAS ]  İzmir İşi"/>
+		    <vehicle id="415" name="•● [ TOFAS ]  Dogan" />
+<vehicle id="434" name="•● [ TOFAS ]  Murat 124 [YENI] "/>
+			<vehicle id="0" name="" />
+<vehicle id="0" name="•●═══════ VOLKSWAGEN ═══════●•" /> 
+		<vehicle id="0" name="" />
+            <vehicle id="419" name="•● [ VOLKSWAGEN ]  Golf" />		
+	        <vehicle id="436" name="•● [ VOLKSWAGEN ]  Passat" />
+	        <vehicle id="602" name="•● [ VOLKSWAGEN ]  Scirocco" />	
+				<vehicle id="0" name="" />
+	<vehicle id="0" name="•●═══════ ÖZEL ARAÇLAR ═══════●•" /> 
+		<vehicle id="0" name="" />
+		    <vehicle id="416" name="•● [ FORD ] Transit " />
+			<vehicle id="536" name="•● [ DACIA ]   Polis  " />
+            <vehicle id="517" name="•● [ NISSAN ]   Polis  " />	
+			<vehicle id="431" name="•● [ OTOBUS ] Kamil Koç "/>
+		    <vehicle id="509" name="•● [ BİSİKLET ] Basık Çocuk"/>
+	        <vehicle id="461" name="•● [ APRİLLA ] RSV4 "/>
+            <vehicle id="581" name="•● [ KÜBA ]   Motor  " /> 
+            <vehicle id="521" name="•● [ KAWASAKİ ] Ninja H2R  " />
+	        <vehicle id="471" name="•● [ ATV ] Army    " />
+			<vehicle id="519" name="•● [ UÇAK ]  Solo Türk" />
+            <vehicle id="487" name="•● [ SADLER ] Helikopter " />
+			<vehicle id="525" name="•● [FORD ] Çekici [YENI]" />
+            <vehicle id="0" name="" />
+	<vehicle id="0" name="════════════════════════════" /> 
+</group>
+
+<group name="║•● Orjinal Araçlar">
+  <vehicle id="602" name="Alpha" /> 
+  <vehicle id="429" name="Banshee" /> 
+  <vehicle id="402" name="Buffalo" /> 
+  <vehicle id="541" name="Bullet" /> 
+  <vehicle id="415" name="Cheetah" /> 
+  <vehicle id="562" name="Elegy" /> 
+  <vehicle id="587" name="Euros" /> 
+  <vehicle id="565" name="Flash" /> 
+  <vehicle id="411" name="Infernus" /> 
+  <vehicle id="559" name="Jester" /> 
+  <vehicle id="560" name="Sultan" /> 
+  <vehicle id="451" name="Turismo" /> 
+  <vehicle id="558" name="Uranus" /> 
+  <vehicle id="555" name="Windsor" /> 
+  <vehicle id="536" name="Blade" /> 
+  <vehicle id="575" name="Broadway" /> 
+  <vehicle id="518" name="Buccaneer" /> 
+  <vehicle id="419" name="Esperanto" /> 
+  <vehicle id="534" name="Remington" /> 
+  <vehicle id="567" name="Savanna" /> 
+  <vehicle id="535" name="Slamvan" /> 
+  <vehicle id="576" name="Tornado" /> 
+  <vehicle id="412" name="Voodoo" /> 
+  <vehicle id="496" name="Blista Compact" /> 
+  <vehicle id="401" name="Bravura" /> 
+  <vehicle id="527" name="Cadrona" /> 
+  <vehicle id="542" name="Clover" /> 
+  <vehicle id="533" name="Feltzer" /> 
+  <vehicle id="526" name="Fortune" /> 
+  <vehicle id="474" name="Hermes" /> 
+  <vehicle id="545" name="Hustler" /> 
+  <vehicle id="517" name="Majestic" /> 
+  <vehicle id="410" name="Manana" /> 
+  <vehicle id="436" name="Previon" /> 
+  <vehicle id="475" name="Sabre" /> 
+  <vehicle id="439" name="Stallion" /> 
+  <vehicle id="549" name="Tampa" /> 
+  <vehicle id="491" name="Virgo" /> 
+  <vehicle id="438" name="Cabbie" /> 
+  <vehicle id="507" name="Elegant" /> 
+  <vehicle id="585" name="Emperor" /> 
+  <vehicle id="466" name="Glendale" /> 
+  <vehicle id="492" name="Greenwood" /> 
+  <vehicle id="546" name="Intruder" /> 
+  <vehicle id="551" name="Merit" /> 
+  <vehicle id="467" name="Oceanic" /> 
+  <vehicle id="426" name="Premier" /> 
+  <vehicle id="547" name="Primo" /> 
+  <vehicle id="405" name="Sentinel" /> 
+  <vehicle id="580" name="Stafford" /> 
+  <vehicle id="409" name="Stretch" /> 
+  <vehicle id="550" name="Sunrise" /> 
+  <vehicle id="566" name="Tahoma" /> 
+  <vehicle id="420" name="Taxi" /> 
+  <vehicle id="540" name="Vincent" /> 
+  <vehicle id="421" name="Washington" /> 
+  <vehicle id="529" name="Willard" /> 
+  <vehicle id="581" name="BF-400" /> 
+  <vehicle id="462" name="Faggio" /> 
+  <vehicle id="521" name="FCR-900" /> 
+  <vehicle id="463" name="Freeway" /> 
+  <vehicle id="523" name="HPV1000" /> 
+  <vehicle id="522" name="NRG-500" /> 
+  <vehicle id="461" name="PCJ-600" /> 
+  <vehicle id="448" name="Pizza Boy" /> 
+  <vehicle id="468" name="Sanchez" /> 
+  <vehicle id="586" name="Wayfarer" /> 
+  <vehicle id="471" name="Quadbike" /> 
+  <vehicle id="472" name="Coastguard" /> 
+  <vehicle id="473" name="Dinghy" /> 
+  <vehicle id="493" name="Jetmax" /> 
+  <vehicle id="595" name="Launch" /> 
+  <vehicle id="484" name="Marquis" /> 
+  <vehicle id="430" name="Predator" /> 
+  <vehicle id="453" name="Reefer" /> 
+  <vehicle id="452" name="Speeder" /> 
+  <vehicle id="446" name="Squalo" /> 
+  <vehicle id="454" name="Tropic" /> 
+  <vehicle id="416" name="Ambulance" /> 
+  <vehicle id="433" name="Barracks" /> 
+  <vehicle id="427" name="Enforcer" /> 
+  <vehicle id="490" name="FBI rancher" /> 
+  <vehicle id="528" name="FBI truck" /> 
+  <vehicle id="407" name="Fire truck" /> 
+  <vehicle id="544" name="Fire truck (ladder)" /> 
+  <vehicle id="596" name="Police car (LS)" /> 
+  <vehicle id="598" name="Police car (LV)" /> 
+  <vehicle id="597" name="Police car (SF)" /> 
+  <vehicle id="599" name="Police ranger" /> 
+  <vehicle id="601" name="S.W.A.T." /> 
+  <vehicle id="524" name="Cement truck" /> 
+  <vehicle id="578" name="DFT-30" /> 
+  <vehicle id="486" name="Dozer" /> 
+  <vehicle id="573" name="Dune" /> 
+  <vehicle id="455" name="Flatbed" /> 
+  <vehicle id="530" name="Forklift" /> 
+  <vehicle id="403" name="Linerunner" /> 
+  <vehicle id="443" name="Packer" /> 
+  <vehicle id="515" name="Roadtrain" /> 
+  <vehicle id="574" name="Sweeper" /> 
+  <vehicle id="514" name="Tanker" /> 
+  <vehicle id="525" name="Towtruck" /> 
+  <vehicle id="408" name="Trashmaster" /> 
+  <vehicle id="552" name="Utility van" /> 
+  <vehicle id="606" name="Baggage trailer (covered)" /> 
+  <vehicle id="607" name="Baggage trailer (Uncovered)" /> 
+  <vehicle id="610" name="Farm trailer" /> 
+  <vehicle id="537" name="Freight train" /> 
+  <vehicle id="590" name="Freight train boxcar" /> 
+  <vehicle id="569" name="Freight train flatbed" /> 
+  <vehicle id="611" name="Street Clean trailer" /> 
+  <vehicle id="584" name="Gas trailer" /> 
+  <vehicle id="608" name="Trailer 1" /> 
+  <vehicle id="435" name="Trailer 2" /> 
+  <vehicle id="450" name="Trailer 3" /> 
+  <vehicle id="591" name="Trailer 4" /> 
+  <vehicle id="499" name="Benson" /> 
+  <vehicle id="609" name="Black Boxville" /> 
+  <vehicle id="422" name="Bobcat" /> 
+  <vehicle id="498" name="Boxville" /> 
+  <vehicle id="414" name="Mule" /> 
+  <vehicle id="600" name="Picador" /> 
+  <vehicle id="543" name="Sadler" /> 
+  <vehicle id="428" name="Securicar" /> 
+  <vehicle id="478" name="Walton" /> 
+  <vehicle id="456" name="Yankee" /> 
+  <vehicle id="554" name="Yosemite" /> 
+  <vehicle id="459" name="Berkley's RC van" /> 
+  <vehicle id="482" name="Burrito" /> 
+  <vehicle id="483" name="Camper" /> 
+  <vehicle id="508" name="Journey" /> 
+  <vehicle id="418" name="Moonbeam" /> 
+  <vehicle id="582" name="News van" /> 
+  <vehicle id="413" name="Pony" /> 
+  <vehicle id="440" name="Rumpo" /> 
+  <vehicle id="485" name="Baggage" /> 
+  <vehicle id="568" name="Bandito" /> 
+  <vehicle id="424" name="BF Injection" /> 
+  <vehicle id="504" name="Bloodring Banger" /> 
+  <vehicle id="538" name="Brownstreak Engine" /> 
+  <vehicle id="570" name="Brownstreak Carriage" /> 
+  <vehicle id="431" name="Bus" /> 
+  <vehicle id="457" name="Caddy" /> 
+  <vehicle id="437" name="Coach" /> 
+  <vehicle id="532" name="Combine harvester" /> 
+  <vehicle id="588" name="Hotdog" /> 
+  <vehicle id="434" name="Hotknife" /> 
+  <vehicle id="494" name="Hotring racer" /> 
+  <vehicle id="502" name="Hotring racer 2" /> 
+  <vehicle id="503" name="Hotring racer 3" /> 
+  <vehicle id="444" name="Monster" /> 
+  <vehicle id="556" name="Monster 2" /> 
+  <vehicle id="557" name="Monster 3" /> 
+  <vehicle id="572" name="Mower" /> 
+  <vehicle id="423" name="Mr. Whoopee" /> 
+  <vehicle id="571" name="Kart" /> 
+  <vehicle id="531" name="Tractor" /> 
+  <vehicle id="449" name="Trolly" /> 
+  <vehicle id="583" name="Tug" /> 
+  <vehicle id="539" name="Vortex" /> 
+  <vehicle id="589" name="Club" /> 
+  <vehicle id="579" name="Huntley" /> 
+  <vehicle id="400" name="Landstalker" /> 
+  <vehicle id="500" name="Mesa" /> 
+  <vehicle id="470" name="Patriot" /> 
+  <vehicle id="404" name="Perennial" /> 
+  <vehicle id="489" name="Rancher" /> 
+  <vehicle id="479" name="Regina" /> 
+  <vehicle id="442" name="Romero" /> 
+  <vehicle id="495" name="Sandking" /> 
+  <vehicle id="458" name="Solair" /> 
+  <vehicle id="561" name="Stratum" />
+</group>
+
+  </catalog>

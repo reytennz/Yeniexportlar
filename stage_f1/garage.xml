@@ -1,0 +1,10 @@
+<garage>
+    <player serial="3952D6701949192C60CAC76454D15970">
+        <vehicle id="1" model="419" plate="ABPQRSTUVMNOPQRSTUV 589" r1="255" g1="255" b1="255" r2="255" g2="255" b2="255" r3="0" g3="0" b3="0" r4="0" g4="0" b4="0" hr="255" hg="255" hb="255" wr="0" wg="0" wb="0"></vehicle>
+        <vehicle id="2" model="602" plate=" 129" r1="255" g1="255" b1="255" r2="255" g2="255" b2="255" r3="0" g3="0" b3="0" r4="0" g4="0" b4="0" hr="255" hg="255" hb="255" wr="0" wg="0" wb="0"></vehicle>
+        <vehicle id="3" model="575" plate=" 413" r1="255" g1="255" b1="255" r2="255" g2="255" b2="255" r3="0" g3="0" b3="0" r4="0" g4="0" b4="0" hr="255" hg="255" hb="255" wr="0" wg="0" wb="0"></vehicle>
+        <vehicle id="4" model="461" name="Aprilia RSV4" plate="MNOPQRSTUVW 845" r1="255" g1="255" b1="255" r2="255" g2="255" b2="255" r3="0" g3="0" b3="0" r4="0" g4="0" b4="0" hr="255" hg="255" hb="255" wr="0" wg="0" wb="0"></vehicle>
+        <vehicle id="5" model="411" name="Honda Civic VTEC" plate="MNDEFGHI 844" r1="255" g1="0" b1="0" r2="255" g2="0" b2="0" r3="255" g3="0" b3="0" r4="255" g4="0" b4="0" hr="255" hg="0" hb="0" wr="255" wg="0" wb="0"></vehicle>
+        <vehicle id="6" model="587" name="Mazda RX-8" plate=" 159" r1="247" g1="7" b1="7" r2="247" g2="7" b2="7" r3="247" g3="7" b3="7" r4="247" g4="7" b4="7" hr="247" hg="7" hb="7" wr="246" wg="7" wb="7"></vehicle>
+    </player>
+</garage>

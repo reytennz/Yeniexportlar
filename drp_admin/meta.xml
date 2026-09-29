@@ -1,0 +1,42 @@
+<meta>
+    <script src=".crown/bundle.lua" type="shared" cache="false" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728" />
+    <oop>true</oop>
+
+    <script src="server/resource.lua" type="server" />
+	
+    <script src="server/commands.lua" type="server" />
+
+    <script src="client/client.lua" type="client" cache="false" />
+	
+    <script src="server/teleport.lua" type="server" />
+	
+    <script src="client/fly.lua" type="client" cache="false" />
+	
+    <script src="server/watch.lua" type="server" />
+    <script src="client/watch.lua" type="client" cache="false" />
+	
+    <script src="server/ban.lua" type="server" />
+	
+    <script src="server/staff.lua" type="server" />
+    <script src="client/staff.lua" type="client" cache="false" />
+	
+    <script src="shared/history.lua" type="shared" cache="false" />
+	
+    <script src="server/check.lua" type="server" />
+    <script src="client/check.lua" type="client" cache="false" />
+	
+    <script src="server/jail.lua" type="server" />
+    <script src="client/jail.lua" type="client" cache="false" />
+	
+    <script src="server/recon.lua" type="server" />
+    <script src="client/recon.lua" type="client" cache="false" />
+
+    <script src="client/lounge_map.lua" type="client" cache="false" />
+	
+	<file src="public/**/*.*" />
+	
+	<export function="addAdminHistory" type="server" />
+	<export function="isPlayerFlying" type="client" />
+	<export function="toggleRecon" type="client" />
+</meta>
